@@ -6,8 +6,8 @@ function onOpen(){
 }
 function createManual(){
 
-  const destinationFolder = DriveApp.getFolderById('1lNQ8qrivRj3gTdUzQjT-5TQEBWRvX_hR');
-  const documentfile = DriveApp.getFileById('13LHBnoI3_-7xD5sH1vHvKGgR3sqZDoi023-bATDVhSo')
+  const destinationFolder = DriveApp.getFolderById('---Target Folder');
+  const documentfile = DriveApp.getFileById('Blank and Base file')
   const spreadsheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Sheet1');
   var logo = DriveApp.getFileById('1yr7USEHaBeN8c4QRdN2hFHBpd3FZGVcC')
   const rows = spreadsheet.getDataRange().getValues();
